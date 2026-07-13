@@ -330,9 +330,9 @@
   /* =========================================================
      STATS STRIP
      ========================================================= */
-  .stats{background:var(--grad-premium);position:relative;overflow:hidden}
-  .stats::before{content:"";position:absolute;inset:0;opacity:.5;
-    background:radial-gradient(50% 120% at 15% 0%,rgba(236,203,132,.22),transparent 60%),radial-gradient(45% 120% at 90% 100%,rgba(236,203,132,.14),transparent 60%)}
+  .stats{background:linear-gradient(115deg,var(--sage-700) 0%,var(--sage) 100%);position:relative;overflow:hidden}
+  .stats::before{content:"";position:absolute;inset:0;opacity:.35;
+    background:radial-gradient(50% 120% at 15% 0%,rgba(139,94,60,.3),transparent 60%),radial-gradient(45% 120% at 90% 100%,rgba(139,94,60,.2),transparent 60%)}
   .stats::after{content:"";position:absolute;top:0;left:0;right:0;height:22px;background:var(--cream);
     -webkit-mask-image:radial-gradient(circle at 11px 0,transparent 11px,#000 11.5px);mask-image:radial-gradient(circle at 11px 0,transparent 11px,#000 11.5px);
     -webkit-mask-size:22px 22px;mask-size:22px 22px;-webkit-mask-repeat:repeat-x;mask-repeat:repeat-x}
